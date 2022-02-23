@@ -16,8 +16,7 @@ let mySprite = sprites.create(img`
     . . . f f f f f f . . . . 
     . . . f f . . f f . . . . 
     `, SpriteKind.Player)
-story.printText(" im watching you", 100, 30)
-story.printText("You can run but you can't hide", 100, 30)
+story.printCharacterText("Hi, enjoy this game hope you like this game enjoy ")
 forever(function () {
     controller.moveSprite(mySprite)
     scene.setBackgroundImage(img`
