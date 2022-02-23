@@ -18,7 +18,6 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 story.printText(" im watching you", 100, 30)
 story.printText("You can run but you can't hide", 100, 30)
-story.printText("Now you better run to heaven or die now die sucker", 100, 30)
 forever(function () {
     controller.moveSprite(mySprite)
     scene.setBackgroundImage(img`
